@@ -1,3 +1,6 @@
-[submodule "themes/jeffprod"]
-  path = themes/jeffprod
-  url = git@github.com:Tazeg/hugo-blog-jeffprod
+# [submodule "themes/jeffprod"]
+#   path = themes/jeffprod
+#   url = git@github.com:Tazeg/hugo-blog-jeffprod
+[submodule "themes/hugo-blog-jeffprod"]
+	path = themes/hugo-blog-jeffprod
+	url = https://github.com/Tazeg/hugo-blog-jeffprod.git
