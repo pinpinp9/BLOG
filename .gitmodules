@@ -1,6 +1,0 @@
-[submodule "themes/tony"]
-	path = themes/tony
-	url = https://github.com/ThemeTony/hugo-theme-tony.git
-[submodule "themes/bodhi"]
-	path = themes/bodhi
-	url = https://github.com/rhnvrm/bodhi

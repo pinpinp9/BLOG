@@ -1,0 +1,8 @@
+theme = "jeffprod"
+
+[permalinks]
+    post = "/:year/:filename"
+
+[taxonomies]
+    tag = "tags"
+    archive = "archives"
