@@ -36,35 +36,55 @@ After installation is done then choosing Hugo themes -- https://themes.gohugo.io
 ### Cloning the theme to create your own website
 
 
+We have to clone the theme from the creator to apply it. 
 
 
-Hugo new site follow by a folder name you want to create
+In the command prompt, Type Hugo new site followed by a folder name 
 
 
-Move into the folder and clone the theme you choose with git command.
+Move into the new folder, type cd followed by the folder name you just established 
 
+Next, clone the theme you choose on the Hugo website followed by the directory which is themes/subdirectory
 
 For example:
 ```
-hugo new site myNewWebSite
+hugo new site myblog
 cd myblog
 git clone https://github.com/Tazeg/hugo-blog-jeffprod.git themes/jeffprod
 ```
-If everything is alright, you will see a new folder appeared in `themes`.
 
-Find a file `config.toml` in themes folder. 
+If there is no error, you will see a new folder appeared in `themes`.
 
-Copy all code and paste in the original `config.toml` file which is usually located at the bottom of the folder.
 
-Run the server in command promt
+### Configuration
+
+Copy all code either from the original website or `config.toml` in the themes folder. 
+
+Paste the code in the original file `config.toml` which is usually located at the bottom of the folder.
+
+
+### Write blog posts
+
+Type hugo new post/`file name` 
+
+```
+hugo new post/my-first-post.md
+```
+ 
+
+### Render
+
+Run the server in command prompt
 
 ```
 hugo server
 ```
 
-There you go! Check out if the website can run on your server [http://localhost:1313](http://localhost:1313) 
+There you go! Check it out if the website can run on your server [http://localhost:1313](http://localhost:1313) 
 
-<!-- ![theme](/img/hugo-theme.jpg) -->
+If you want your website to be officially published, you need to either buy a domain name or register a free one via Netlify
+
+
 
 
 
