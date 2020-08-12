@@ -1,5 +1,5 @@
 ---
-title: "My First Post"
+title: ""
 date: 2020-08-11T18:23:44+10:00
 archives: "2020"
 tags: []
@@ -23,6 +23,19 @@ choco install hugo -confirm
 
 ```
 
+After installation is done then choosing Hugo themes -- https://themes.gohugo.io/l
+
+Hugo new site follow by a folder name you want to create
+Move into the folder 
+Clone the theme 
+
+```
+hugo new site myNewWebSite
+cd myblog
+git clone https://github.com/Tazeg/hugo-blog-jeffprod.git themes/jeffprod
+
+```
+![theme](/img/hugo-theme.PNG)
 
 
 
