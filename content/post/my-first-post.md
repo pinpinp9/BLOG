@@ -35,7 +35,7 @@ cd myblog
 git clone https://github.com/Tazeg/hugo-blog-jeffprod.git themes/jeffprod
 
 ```
-![theme](/img/hugo-theme.PNG)
+![theme](/img/hugo-theme.jpg)
 
 
 
