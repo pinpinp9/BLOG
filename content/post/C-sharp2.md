@@ -2,7 +2,11 @@
 title: "C Sharp: Update image into MS Access"
 date: 2020-08-16T22:45:01+10:00
 archives: "2020"
-tags: []
+tags: [
+    "c-sharp",
+    "image",
+    "MS Access"   
+]
 author: John SMITH
 ---
 ## [SOLVED] Update image in microsoft access

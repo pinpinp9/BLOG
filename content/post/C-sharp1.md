@@ -3,7 +3,7 @@ title: "C Sharp: Insert image into MS Access"
 date: 2020-08-16T21:52:07+10:00
 archives: "2020"
 tags: [
-    "c#",
+    "c-sharp",
     "image",
     "MS Access"   
 ]
