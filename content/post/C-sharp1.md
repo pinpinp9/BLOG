@@ -12,15 +12,15 @@ weight: 10
 ---
 ## [SOLVED] Insert image into database in microsoft access
 
-For beginners, it is not an easy task to deal with complicated data such as byte, binary, etc.
+For beginners, it is not an easy task to deal with complicated data such as byte, binary, etc. This article will show 
 
-This article will show an samply way of how to insert such data into Microsoft Access. You also can adapt the code
+an samply way of how to insert such data in Microsoft Access. You also can adapt the code by yourself if you are working 
 
-by yourself if you are working with a database. I assume that you are familiar with SQL command, and have some C# or Java knowledge.
+with a database. I assume that you are familiar with SQL command, and have some C# or Java knowledge. I'll explain how to 
 
-I'll explain how to make the connection between both sides (MS ACCESS and VS CODE) and how you can convert raw data to binary. 
+make the connection between both sides (MS ACCESS and VS CODE) and how you can convert raw data to binary. Then, you will 
 
-Then, you will be fine to insert such data into your backend.
+be fine to insert such data into your backend.
 
 
 #####  C#- CREATE CONNECTION TO MS ACCESS
