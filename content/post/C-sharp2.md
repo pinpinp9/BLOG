@@ -7,19 +7,35 @@ author: John SMITH
 ---
 ## [SOLVED] Update image in microsoft access
 
+For beginners, it is not an easy task to deal with complicated data such as byte, binary, etc.
+
+This article will show an samply way of how to update such data in Microsoft Access. You also can adapt the code
+
+by yourself if you are working with a database. I assume that you are familiar with SQL command, and have some C# or Java knowledge.
+
+I'll explain how to make the connection between both sides (MS ACCESS and VS CODE) and how you can convert raw data to binary. 
+
+Then, you will be fine to insert such data into your backend.
+
+
 #####  C#- CREATE CONNECTION TO MS ACCESS
 
+
 Create the connection with Microsoft Access
+
+
 ```
    OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Employee.accdb");
 ```
 
 #####  C#-CONVERT IMAGE TO BINARY DATA
 
+
 Using MemoryStream to convert data to byte
 
 ```
 private byte[] SavePhoto() {
+
     //converting photo to binary data
     MemoryStream ms = new MemoryStream();
     byte[] photo_aray;
@@ -34,6 +50,7 @@ private byte[] SavePhoto() {
 ```
 
 #####  C#-INSERT DATA INTO DATABASE
+
 When we parameterize data, we should organize them in order, otherwise it will not work.
 ```
    OleDbCommand cmd = new OleDbCommand();
