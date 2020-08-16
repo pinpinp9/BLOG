@@ -36,15 +36,7 @@ After installation is done then choosing Hugo themes -- https://themes.gohugo.io
 ### Cloning the theme to create your own website
 
 
-We have to clone the theme from the creator to apply it. 
-
-
-In the command prompt, Type Hugo new site followed by a folder name 
-
-
-Move into the new folder, type cd followed by the folder name you just established 
-
-Next, clone the theme you choose on the Hugo website followed by the directory which is themes/subdirectory
+We have to clone the theme from the creator to apply it. In the command prompt, Type Hugo new site followed by a folder name Move into the new folder, type cd followed by the folder name you just established Next, clone the theme you choose on the Hugo website followed by the directory which is themes/subdirectory
 
 For example:
 ```
