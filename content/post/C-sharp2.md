@@ -34,13 +34,13 @@ private byte[] SavePhoto() {
 
     //converting photo to binary data
     MemoryStream ms = new MemoryStream();
-    byte[] photo_aray;
+    byte[] photo;
            
     //using MemoryStream:
     pictureBox1.Image.Save(ms, ImageFormat.Jpeg);
     photo = new byte[ms.Length];
     ms.Position = 0;
-    ms.Read(photo_aray, 0, photo.Length);
+    ms.Read(photo, 0, photo.Length);
     return photo;
   }
 ```
