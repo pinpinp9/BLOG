@@ -12,6 +12,7 @@ author: Pinpin
 Create the connection with Microsoft Access
 ```
    OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Employee.accdb");
+
 ```
 
 #####  C#-CONVERT IMAGE TO BINARY DATA
@@ -31,6 +32,7 @@ private byte[] SavePhoto() {
     ms.Read(photo_aray, 0, photo.Length);
     return photo;
   }
+  
 ```
 
 #####  C#-INSERT DATA INTO DATABASE
